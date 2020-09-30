@@ -202,7 +202,7 @@ public class MainActivity extends HeyteaReactActivity {
 
 ## Author
 
-Heytea @qindachang
+Heytea
 
 ## License
 
