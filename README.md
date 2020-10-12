@@ -1,6 +1,6 @@
 # Dynamic ReactNative Android
 
-[![maven central](https://img.shields.io/badge/maven_central-1.0.0-green)]() | [简体中文](./README-CN.md)
+[![maven central](https://img.shields.io/badge/maven_central-1.0.0-green)](https://dl.bintray.com/qindachang/maven/com/heyteago/dynamicrn/1.0.0/) | [简体中文](./README-CN.md)
 
 The solution of dynamically loading ReactNative supports [default loading](#ⅰ-default-loading), [asset directory loading](#ⅱ-asset-directory-loading), [any file directory loading](#ⅲ-any-file-directory-loading), and [port debugging Metro loading](#ⅳ-port-debugging-metro-loading).
 
@@ -173,7 +173,7 @@ public class MainActivity extends HeyteaReactActivity {
 
 Support the original ReactNative project to start port 8081 and use the port to debug Metro to load the bundle. Support shake to start debugging.
 
-You need to pass 4 parameters: the first is the IP address; the second is the Metro port; the third is the moduleName, which is generally consistent with the value of the name field in the package.json of the ReactNative project; the fourth is the entry path; Five are the startup parameters, which can be null.
+You need to pass 5 parameters: the first is the IP address; the second is the Metro port; the third is the moduleName, which is generally consistent with the value of the name field in the package.json of the ReactNative project; the fourth is the entry path; Five are the startup parameters, which can be null.
 
 > Note: It needs to be in the same LAN.
 
