@@ -1,6 +1,6 @@
 # Dynamic ReactNative Android
 
-[![maven central](https://img.shields.io/badge/maven_central-1.0.0-green)]()
+[![maven central](https://img.shields.io/badge/maven_central-1.0.0-green)](https://dl.bintray.com/qindachang/maven/com/heyteago/dynamicrn/)
 
 动态加载ReactNative的方案，支持[默认加载](#ⅰ-默认加载)、[Asset目录加载](#ⅱ-asset目录加载)、[任意文件目录加载](#ⅲ-任意文件目录加载)、[端口调试Metro加载](#ⅳ-端口调试metro加载)。
 
@@ -174,7 +174,7 @@ public class MainActivity extends HeyteaReactActivity {
 
 支持原有的 ReactNative 工程启动 8081 端口，使用端口调试 Metro 加载bundle。支持摇一摇开启调试。
 
-需要传递4个参数：第一个为IP地址；第二个为 Metro 端口；第三个为moduleName，一般与 ReactNative 工程的 package.json 中 name 字段的值保持一致；第四个为入口路径；第五个为启动传参，可以为空。
+需要传递5个参数：第一个为IP地址；第二个为 Metro 端口；第三个为moduleName，一般与 ReactNative 工程的 package.json 中 name 字段的值保持一致；第四个为入口路径；第五个为启动传参，可以为空。
 
 > 注：需要在同一个局域网内。
 
@@ -208,4 +208,4 @@ Heytea
 
 ## License
 
-Apache-2.0
+MIT
